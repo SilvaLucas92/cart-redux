@@ -1,0 +1,52 @@
+.artProd {
+    margin: 15px auto 15px auto;
+    width: 45%;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color:#212529
+}
+
+.artProd img {
+    width: 100%;
+}
+
+.artDiv {
+    text-align: left;
+    margin: auto;
+    border-top: 1px solid rgb(153, 152, 152);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.divBtn button {
+    width: 70%;
+    height: 30px;
+    background-color: #212529;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+
+@media (min-width:768px) {
+    .artProd {
+        width: 30%;
+    }
+}
+
+@media (min-width:1200px) {
+    .artProd {
+        width: 25%;
+    }
+}

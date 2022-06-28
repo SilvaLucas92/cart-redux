@@ -1,0 +1,81 @@
+.artProd {
+    margin: 15px auto 15px auto;
+    background-color: #e9ecef;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color:#212529
+}
+
+.artProd img {
+    width: 100%;
+}
+
+.artDiv {
+    text-align: left;
+    margin: auto;
+    border-top: 1px solid rgb(153, 152, 152);  
+    padding: 5px; 
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 5px;
+}
+.divBtn button {
+    width: 70%;
+    height: 30px;
+    background-color: #212529;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+@media (min-width:500px) {
+    .artProd {
+        display: flex; 
+        justify-content: center;
+    }
+    .artProd img {
+        width: 50%;
+    }
+    .artDiv {
+        border-top:none; 
+        width: 60%;
+    }
+    .divBtn button {
+        width: 100%;
+    }
+    .divBtn {
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) {
+    .artDiv {
+        width: 40%;
+    }
+    .artProd img {
+        width: 40%;
+    }
+    .artProd {
+        width: 70%;
+    }
+}
+
+@media (min-width:1200px) {
+    .artDiv {
+        width: 70%;
+    }
+    .artProd img {
+        width: 30%;
+    }
+    .artProd {
+        width: 60%;
+    }
+}

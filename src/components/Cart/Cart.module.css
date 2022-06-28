@@ -1,0 +1,32 @@
+.sectionCart {
+    width: 90%;
+    margin: auto;
+}
+
+.divTotal {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emptyCart {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:500px) {
+    .divTotal {
+        width: 50%;
+    }
+}
+
+@media (min-width:768px) {
+    .divTotal {
+        width: 80%;
+    }
+
+}
